@@ -13,10 +13,8 @@ dependencies:
 
   get: ^4.6.5
 
-  perfil:
-    git:
-      url: https://github.com/JuliaMStahl/perfil.git
-      ref: master
+  routes_lib:
+    path: ../../libraries/routes_lib
 
 dev_dependencies:
   flutter_test:

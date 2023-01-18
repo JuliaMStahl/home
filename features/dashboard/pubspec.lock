@@ -92,6 +92,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.2"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.5"
   dart_console:
     dependency: transitive
     description:
@@ -229,7 +236,7 @@ packages:
     source: hosted
     version: "1.8.2"
   perfil:
-    dependency: "direct main"
+    dependency: transitive
     description:
       path: "."
       ref: master
@@ -272,6 +279,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.1.0"
+  routes_lib:
+    dependency: "direct main"
+    description:
+      path: "../../libraries/routes_lib"
+      relative: true
+    source: path
+    version: "1.0.0+1"
   sky_engine:
     dependency: transitive
     description: flutter

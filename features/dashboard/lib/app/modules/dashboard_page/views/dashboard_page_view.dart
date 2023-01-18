@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:perfil/app/routes/app_pages.dart';
+import 'package:routes_lib/app_pages.dart';
 
 import '../controllers/dashboard_page_controller.dart';
 
@@ -21,14 +21,15 @@ class DashboardPageView extends GetView<DashboardPageController> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(
+            const Text(
               'Bem-vindo a Home',
               style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             ElevatedButton(
-              onPressed: () => Get.toNamed(Routes.PERFIL_PAGE),
-              child: Text('Ir para perfil'),
+              // onPressed: () => Get.toNamed(Routes.PERFIL_PAGE),
+              onPressed: () => Get.toNamed(RedirectTo.ROUTES_PERFIL),
+              child: const Text('Ir para perfil'),
             ),
           ],
         ),
