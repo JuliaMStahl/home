@@ -231,9 +231,11 @@ packages:
   perfil:
     dependency: "direct main"
     description:
-      path: "../../../perfil"
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: ea18ebfbf703ab1d2a8822f8aea6bea1d8866935
+      url: "https://github.com/JuliaMStahl/perfil.git"
+    source: git
     version: "0.0.1"
   process_run:
     dependency: transitive
